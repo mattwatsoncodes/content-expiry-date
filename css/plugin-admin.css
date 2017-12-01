@@ -1,0 +1,70 @@
+/* Meta Box */
+
+.curtime #expires {
+	background: none !important;
+	padding: 2px 0 1px 0;
+	display: inline !important;
+	height: auto !important;
+}
+
+.curtime #expires:before {
+	color: #82878c;
+	font: normal 20px/1 dashicons;
+	speak: none;
+	display: inline-block;
+	margin-right: -1px;
+	padding-right: 4px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\f145";
+	position: relative;
+	top: -1px;
+}
+
+.curtime #expiresdiv {
+	padding-top: 5px;
+	line-height: 23px;
+}
+
+.curtime #expiresdiv p {
+	margin: 8px 0 6px;
+}
+
+.curtime #expiresdivinput {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.curtime #expiresdiv select {
+	height: 21px;
+	line-height: 14px;
+	padding: 0;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+.mkdo_expiry_behaviour {
+	overflow: hidden;
+    padding-bottom: 1em;
+}
+
+.mkdo_expiry_behaviour p {
+    clear: both;
+}
+
+.mkdo_expiry_behaviour .row-title {
+    display: block;
+    float: left;
+    width: 200px;
+}
+
+.mkdo_expiry_behaviour .row-content {
+    float: left;
+    padding-bottom: 1em;
+}
+
+.mkdo_expiry_behaviour .row-content label {
+    display: block;
+    line-height: 1.75em;
+}
